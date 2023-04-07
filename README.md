@@ -1,5 +1,5 @@
 # insani.org Modified configure and Makefile for onscripter-en
-insani.org modified configure and Makefile for the onscripter-en build system, capable of building an x86-64 binary for onscripter-en on MSYS2.  If you are interested in this, you are either Galladite27 or chaoskaiser72.
+insani.org modified configure and Makefile for the onscripter-en build system, capable of building an x86-64 binary for onscripter-en on MSYS2 (MINGW64).  If you are interested in this, you are either Galladite27 or chaoskaiser72.
 
 Unnatural things have been done to make this Makefile work on MSYS2.  Primarily, the existing build system for ONScripter-EN makes assumptions that fail -- for instance, it creates and compiles code to test for dependencies, but those code snippets *simply fail to compile* in MSYS2, causing cascade failures of dependency build.  I am well aware that this has not been done in the most elegant fashion, but I have found this level of disassembly necessary to begin to plumb the depths of *why* the onscripter-en build system fails as hard as it does on MSYS2.
 
