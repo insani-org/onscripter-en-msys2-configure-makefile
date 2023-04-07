@@ -10,4 +10,6 @@ Preliminary findings follow:
 - extlibs build fails 100% of the time, in part due to the code snippet compilation issue noted above
 - The build system makes faulty assumptions about 32/64-bit, which makes me think that there is a syntax error somewhere in the configure script that causes this behavior (it is present even when compiling for a 32-bit target)
 - The build system actually assumes extlibs *even when you have system versions of the libraries in question*, which can lead to cascade failures during the link stage
+- -Werror is a monumental mistake; you will simply be unable to compile on Windows if you leave it at that
+  - Use -Wall instead
 - **OYABB INSANITY SPIRIT IS ALIVE :3**
