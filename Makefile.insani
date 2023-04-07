@@ -1,10 +1,23 @@
-# -*- makefile-gmake -*-
+# -*- Makefile.insani for onscripter-en -*-
 #
-# THIS IS A GENERATED FILE - changes will not be kept if configure is
-# run again.  If you wish to customise it, please be sure to give your
-# version a different filename.
+# This is a Makefile for onscripter-en, but with additional insanity spirit.  This Makefile is specific for Windows and MSYS2.
+# Do not use this Makefile for any other reason.  Furthermore, this Makefile has been heavily modified from the original autoconfigured
+# Makefile.  Primarily, the following has occurred:
 #
-# Makefile for ONScripter-EN
+# - All extlibs stripped out
+# - Explicitly linking the necessary system libraries
+# - Explicitly linking the necessary library dependencies
+# - Destroy 32-bit/64-bit confusion
+# - Disallow the -Werror flag
+#
+# This Makefile is not intended for true production use; it is instead made to help the *NScripter Work Group in their continued
+# explorations and optimizations of code.  Using this as a reference, it should be easily possible to make the 32-bit Windows build that
+# the *NScripter Work Group desires.  I recommend manually compiling the necessary dependencies with the correct flags (specifically
+# SDL_mixer, to make sure MP3 support is fully configured in) in MSYS2, and placing them in the right place in the system path.  Doing
+# this all in the MINGW32 environment should create the desired 32-bit Windows build.
+#
+# However, this is not the SHINING CAR OF INSANI'S DREAMS, so I cannot SHOW YOU THE WAY FOR LOVING (32-BIT BUILDS).  My most profound
+# apologies.
 
 WIN32=true
 OBJSUFFIX=.o
@@ -60,7 +73,7 @@ LIBS = -static -Wl,--start-group \
        $(shell smpeg-config --libs) $(shell pkg-config freetype2 --libs) \
        -lSDL_image -ljpeg -lpng -lz \
        -lSDL_mixer -logg -lvorbis -lvorbisfile \
-	   -lbrotlidec -lbrotlicommon -lharfbuzz -ltiff -lwebp -lmad -lgraphite2 -ljbig -lsharpyuv -lzstd -ldeflate -lLerc -llzma -liconv -ldinput -lwinmm -ldxguid -lrpcrt4 \
+       -lbrotlidec -lbrotlicommon -lharfbuzz -ltiff -lwebp -lmad -lgraphite2 -ljbig -lsharpyuv -lzstd -ldeflate -lLerc -llzma -liconv -ldinput -lwinmm -ldxguid -lrpcrt4 \
        -lbz2 -Wl,--end-group
 
 # Remove -DUSE_MESSAGEBOX if you don't want Windows dialog boxes
