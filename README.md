@@ -23,9 +23,9 @@ Install MSYS2 (https://www.msys2.org) and accept the default install location (C
 This will likely cause MSYS2 to close.  Relaunch into the MINGW64 environment 
 and run that command again until nothing further happens.  Then run:
 
-```pacman -S mingw-w64-x86_64-SDL mingw-w64-x86_64-SDL_ttf mingw-w64-x86_64-SDL_mixer mingw-w64-x86_64-SDL_image mingw-w64-x86_64-bzip2 mingw-w64-x86_64-libogg mingw-w64-x86_64-libvorbis mingw-w64-x86_64-freetype mingw-w64-x86_64-smpeg mingw-w64-x86_64-iconv mingw-w64-x86_64-zlib mingw-w64-x86_64-binutils```
+```pacman -S mingw-w64-x86_64-SDL mingw-w64-x86_64-SDL_ttf mingw-w64-x86_64-SDL_mixer mingw-w64-x86_64-SDL_image mingw-w64-x86_64-bzip2 mingw-w64-x86_64-libogg mingw-w64-x86_64-libvorbis mingw-w64-x86_64-freetype mingw-w64-x86_64-smpeg mingw-w64-x86_64-iconv mingw-w64-x86_64-zlib mingw-w64-x86_64-toolchain```
 
-```pacman -S mingw-w64-i686-SDL mingw-w64-i686-SDL_ttf mingw-w64-i686-SDL_mixer mingw-w64-i686-SDL_image mingw-w64-i686-bzip2 mingw-w64-i686-libogg mingw-w64-i686-libvorbis mingw-w64-i686-freetype mingw-w64-i686-smpeg mingw-w64-i686-iconv mingw-w64-i686-zlib mingw-w64-i686-binutils```
+```pacman -S mingw-w64-i686-SDL mingw-w64-i686-SDL_ttf mingw-w64-i686-SDL_mixer mingw-w64-i686-SDL_image mingw-w64-i686-bzip2 mingw-w64-i686-libogg mingw-w64-i686-libvorbis mingw-w64-i686-freetype mingw-w64-i686-smpeg mingw-w64-i686-iconv mingw-w64-i686-zlib mingw-w64-i686-toolchain```
 
 This will install both the 64-bit and 32-bit versions of these dependencies.
 
