@@ -14,21 +14,24 @@ Preliminary findings follow:
   - Use -Wall instead
 - **OYABB INSANITY SPIRIT IS ALIVE :3**
 
-## MSYS2 Setup
+## Guide
+### MSYS2 Setup
 Install MSYS2 (https://www.msys2.org) and accept the default install location (C:\msys64).  After you have installed MSYS2, make sure that you are logging into the MINGW64 environment.  By default MSYS2 launches into the UCRT64 environment, so be careful.  Once you are in, update MSYS2:
 
-- pacman -Syuu
+```pacman -Syuu```
 
 This will likely cause MSYS2 to close.  Relaunch into the MINGW64 environment 
 and run that command again until nothing further happens.  Then run:
 
-- pacman -S mingw-w64-x86_64-SDL mingw-w64-x86_64-SDL_ttf mingw-w64-x86_64-SDL_mixer mingw-w64-x86_64-SDL_image mingw-w64-x86_64-bzip2 mingw-w64-x86_64-libogg mingw-w64-x86_64-libvorbis mingw-w64-x86_64-freetype mingw-w64-x86_64-smpeg mingw-w64-x86_64-iconv mingw-w64-x86_64-zlib mingw-w64-x86_64-binutils 
-- pacman -S mingw-w64-i686-SDL mingw-w64-i686-SDL_ttf mingw-w64-i686-SDL_mixer mingw-w64-i686-SDL_image mingw-w64-i686-bzip2 mingw-w64-i686-libogg mingw-w64-i686-libvorbis mingw-w64-i686-freetype mingw-w64-i686-smpeg mingw-w64-i686-iconv mingw-w64-i686-zlib mingw-w64-i686-binutils 
+```pacman -S mingw-w64-x86_64-SDL mingw-w64-x86_64-SDL_ttf mingw-w64-x86_64-SDL_mixer mingw-w64-x86_64-SDL_image mingw-w64-x86_64-bzip2 mingw-w64-x86_64-libogg mingw-w64-x86_64-libvorbis mingw-w64-x86_64-freetype mingw-w64-x86_64-smpeg mingw-w64-x86_64-iconv mingw-w64-x86_64-zlib mingw-w64-x86_64-binutils```
+
+```pacman -S mingw-w64-i686-SDL mingw-w64-i686-SDL_ttf mingw-w64-i686-SDL_mixer mingw-w64-i686-SDL_image mingw-w64-i686-bzip2 mingw-w64-i686-libogg mingw-w64-i686-libvorbis mingw-w64-i686-freetype mingw-w64-i686-smpeg mingw-w64-i686-iconv mingw-w64-i686-zlib mingw-w64-i686-binutils```
 
 This will install both the 64-bit and 32-bit versions of these dependencies.
 
+### Compilation
 Finally, run
 
-- make -f Makefile.Windows.MSYS2.insani
+```make -f Makefile.Windows.MSYS2.insani```
 
 If you wish to build a 32-bit build, edit -m64 to be -m32.
