@@ -114,4 +114,4 @@ As of April 2023, [onscripter-insani](https://github.com/insani-org/onscripter-i
 
 ## License
 
-ONScripter and ONScripter-EN are distributed under the terms of the GNU General Public License.  See COPYING for details.
+ONScripter and ONScripter-EN are distributed under the terms of the GNU General Public License v2.  See COPYING for details.
