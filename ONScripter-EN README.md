@@ -109,9 +109,9 @@ Portions of this README were written primarily by a previous maintainer, Haeleth
 
 Correspondence in English, or regarding issues related to this branch in particular, should be directed to [@Galladite27](https://github.com/Galladite27) or to [@lightbinder](https://github.com/lightbinder), as it contains a large number of customisations that have nothing to do with Ogapee, and neither Haeleth nor Uncle Mion are actively maintaining ONScripter-EN.
   
-# Related Efforts
+## Related Efforts
 As of April 2023, [onscripter-insani](https://github.com/insani-org/onscripter-insani) is a sister project to ONScripter-EN.  This is a branch of ONScripter which focuses on portability of compilation and support of modern macOS, as well as on continued support of insani's indie novel game localizations.  It does not have (and does not plan to add) many of the enhancements that are in ONScripter-EN, and the plan of that project is to remain as close to upstream as possible.
 
-# License
+## License
 
 ONScripter and ONScripter-EN are distributed under the terms of the GNU General Public License.  See COPYING for details.
