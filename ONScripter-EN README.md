@@ -58,7 +58,7 @@ ONScripter-EN has slightly more strict requirements, however.  Since ONScripter'
 The primary test environment is GNU/Linux (x86_64).  Assuming standard build tools are installed, the full-source distribution is likely to compile out-of-the-box or with only minimal changes on truly
 POSIX-conformant platforms (*e.g.* GNU/Linux, *BSD).  The primary target environment, on the other hand, is 32-bit Windows (i686).  [MSYS2](https://msys2.org) on Windows 10+ is assumed for these builds, and due to multiple incompatibilities between MSYS2 and the original configure script, specially-modified Makefile for both x86-64 and i686 Windows compilation are provided.  Development of those Makefiles can be found [here](https://github.com/insani-org/onscripter-en-msys2-configure-makefile).
 
-Please see INSTALL in the source distribution for specific build instructions.
+Please see INSTALL in the source distribution for other specific build instructions.
 
 # Localization
 While ONScripter proper, and previous versions of ONScripter-EN, require English or Japanese settings to be selected at compile-time, this version can be run in both English and Japanese modes.
@@ -113,5 +113,4 @@ Correspondence in English, or regarding issues related to this branch in particu
 As of April 2023, [onscripter-insani](https://github.com/insani-org/onscripter-insani) is a sister project to ONScripter-EN.  This is a branch of ONScripter which focuses on portability of compilation and support of modern macOS, as well as on continued support of insani's indie novel game localizations.  It does not have (and does not plan to add) many of the enhancements that are in ONScripter-EN, and the plan of that project is to remain as close to upstream as possible.
 
 ## License
-
 ONScripter and ONScripter-EN are distributed under the terms of the GNU General Public License v2.  See COPYING for details.
