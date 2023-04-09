@@ -1,5 +1,5 @@
 # ONScripter-EN
-*An enhanced portable open-source NScripter clone*
+*An enhanced portable open-source NScripter implementation*
 
 ## Last Updated
 9 April 2023
