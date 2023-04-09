@@ -109,6 +109,8 @@ We do not recommend reaching out to him about ONScripter-EN issues, though, as h
 Portions of this README were written primarily by a previous maintainer, Haeleth, whose website is still up as of 2023:
 
 - *Website*: [haeleth.net](http://haeleth.net/)
+  
+Haeleth officially retired from our community in 2010, and as such should not be contacted about ONScripter-EN.
 
 Correspondence in English, or regarding issues related to this branch in particular, should be directed to [@Galladite27](https://github.com/Galladite27) or to [@lightbinder](https://github.com/lightbinder), as it contains a large number of customisations that have nothing to do with Ogapee, and neither Haeleth nor Uncle Mion are actively maintaining ONScripter-EN.
 
