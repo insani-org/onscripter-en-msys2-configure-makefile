@@ -19,6 +19,9 @@ We have now come full circle.  In the words of *True Remembrance*:
 > Our time is now.    
 > And this is our story.
 
+### Related Efforts
+As of April 2023, [onscripter-insani](https://github.com/insani-org/onscripter-insani) is a sister project to ONScripter-EN.  This is a branch of ONScripter which focuses on portability of compilation and support of modern macOS, as well as on continued support of insani's indie novel game localizations.  It does not have (and does not plan to add) many of the enhancements that are in ONScripter-EN, and the plan of that project is to remain as close to upstream as possible.  For your novel game localizations, we (and insani) recommend ONScripter-EN over onscripter-insani.
+
 ## Playing Games
 Playing an existing game with ONScripter-EN requires two additional files to be added to the game directory:
 
@@ -60,7 +63,7 @@ POSIX-conformant platforms (*e.g.* GNU/Linux, *BSD).  The primary target environ
 
 Please see INSTALL in the source distribution for other specific build instructions.
 
-# Localization
+## Localization
 While ONScripter proper, and previous versions of ONScripter-EN, require English or Japanese settings to be selected at compile-time, this version can be run in both English and Japanese modes.
 
 In Japanese mode, the built-in menus are in Japanese, numbers are printed using full-width characters, and line-breaking decisions are based on Japanese rules (breaks are allowed in the middle of words, but not before or after certain special characters).
@@ -108,9 +111,6 @@ Portions of this README were written primarily by a previous maintainer, Haeleth
 - *Website*: [haeleth.net](http://haeleth.net/)
 
 Correspondence in English, or regarding issues related to this branch in particular, should be directed to [@Galladite27](https://github.com/Galladite27) or to [@lightbinder](https://github.com/lightbinder), as it contains a large number of customisations that have nothing to do with Ogapee, and neither Haeleth nor Uncle Mion are actively maintaining ONScripter-EN.
-  
-## Related Efforts
-As of April 2023, [onscripter-insani](https://github.com/insani-org/onscripter-insani) is a sister project to ONScripter-EN.  This is a branch of ONScripter which focuses on portability of compilation and support of modern macOS, as well as on continued support of insani's indie novel game localizations.  It does not have (and does not plan to add) many of the enhancements that are in ONScripter-EN, and the plan of that project is to remain as close to upstream as possible.
 
 ## License
 ONScripter and ONScripter-EN are distributed under the terms of the GNU General Public License v2.  See COPYING for details.
