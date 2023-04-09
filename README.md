@@ -32,7 +32,11 @@ This will install both the 64-bit and 32-bit versions of these dependencies.
 ### Compilation
 
 #### 64-Bit
+Launch into the MINGW64 environment.  Run:
+
 ```make -f Makefile.Windows.MSYS2.x86-64.insani```
 
 #### 32-bit
+Launch into the MINGW32 environment.  Run:
+
 ```make -f Makefile.Windows.MSYS2.i686.insani```
